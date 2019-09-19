@@ -12,16 +12,14 @@ public class Person {
         this.job = new Job();
         job.setSalary(50000L);
         job.setRole("Web developer");
-
         this.education = new Education();
-
     }
 
     public Person(long salary){
         this.job = new Job();
         job.setSalary(salary);
+        this.education = new Education();   // added
     }
-
 
     public long getSalary() {
         return job.getSalary();
@@ -32,6 +30,19 @@ public class Person {
         return job.toString() + "\n" + education.toString();
     }
 
+    public Job getJob() {
+        return job;
+    }
 
+    public void setJob(Job job) {
+        this.job = job;
+    }
 
+    public Education getEducation() {
+        return education;
+    }
+
+    public void setEducation(Education education) {
+        this.education = education;
+    }
 }

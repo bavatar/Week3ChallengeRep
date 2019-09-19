@@ -14,7 +14,6 @@ import java.util.Collections;
 public class Education {
     private ArrayList<String> schools;
 
-
     public Education(){
         schools = new ArrayList<>();
         setSchools();

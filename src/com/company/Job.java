@@ -12,6 +12,7 @@ public class Job {
     public void setRole(String role) {
         this.role = role;
     }
+
     public long getSalary() {
         return salary;
     }
@@ -29,6 +30,4 @@ public class Job {
     public String toString(){
         return "Job information: \nRole: " + getRole() + "\t\tSalary: " + getSalary();
     }
-
-
 }
