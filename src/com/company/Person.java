@@ -81,6 +81,13 @@ public class Person {
         address.setName(name);
     }
 
+    public void setPhone(String phone) {
+        address.setPhone(phone);
+    }
+    public String getPhone() {
+        return address.getPhone();
+    }
+
     public String getEmail(){
         return address.getEmail();
     }

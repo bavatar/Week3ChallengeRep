@@ -27,6 +27,11 @@ public class CompositionBasics {
         responseStr = sc.nextLine();
         person.setEmail(responseStr);
 
+        // Phone
+        System.out.println("What is your phone number?");
+        responseStr = sc.nextLine();
+        person.setPhone(responseStr);
+
         // Education
         Education education = person.getEducation();
         int loopCnt = 0;
@@ -140,9 +145,12 @@ public class CompositionBasics {
                 // person.getJob().setSalary(salary);
                 System.out.println("What skill would you like to add?");
                 responseStr = sc.nextLine();
-                System.out.println("Is your level of skill in: " + responseStr + " (A)dvanced (I)ntermediate or (N)ovice?");
+                System.out.println("Is your level of skill in: " + responseStr + " (E)Expert, (A)dvanced, (I)ntermediate or (N)ovice?");
                 String skillLevel = sc.nextLine();
-                if (skillLevel.equalsIgnoreCase("a")) {
+                if (skillLevel.equalsIgnoreCase("e")) {
+                    loopCnt++;
+                    person.addSkills(responseStr + ",\tExpert");
+                } else if (skillLevel.equalsIgnoreCase("a")) {
                     loopCnt++;
                     person.addSkills(responseStr + ",\tAdvanced");
                 } else if (skillLevel.equalsIgnoreCase("i")) {
