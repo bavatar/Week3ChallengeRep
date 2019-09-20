@@ -12,31 +12,35 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Education {
-    private ArrayList<String> schools;
+    //public String[] schoolArray = new String[4];
+    private School school;
+    private ArrayList<School> schools;
 
     public Education(){
-        schools = new ArrayList<>();
-        setSchools();
+        this.schools = new ArrayList<>();
+        //setSchools();
     }
 
     public void setSchools(){
-        schools.add("UMD");
-        Collections.addAll(schools, "Howard",
-                "Georgetown", "American", "Catholic", "Montgomery College",
-                "George Washington", "Johns Hopkins", "UMBC", "Towson");
+        //school
+//        schools.add("George Washington");
+//        Collections.addAll(schools,"Howard", "Catholic", "Montgomery College", "Johns Hopkins");
     }
 
-    public ArrayList<String> getSchools() {
+    public void addSchool(School school){
+        schools.add(school);
+    }
+
+    public ArrayList<School> getSchools() {
         return schools;
     }
 
     @Override
     public String toString(){
         String str = "";
-        for (String item : getSchools()){
-            str += item + " ";
+        for (School s : getSchools()){
+            str += s.getDegreeType() +  " in " + s.getMajor() + "\n" + s.getSchoolName() + ", " +  s.getGradYr() + "\n\n";
         }
-        return "Education information: " + str;
+        return "Education: \n" + str;
     }
-
 }
