@@ -175,7 +175,40 @@ public class CompositionBasics {
             }
         }
 
-        System.out.println("Would you like to see a Summary of your Records?");
+        System.out.println("Would you like to see a Summary of your Records? (Y)");
+        responseStr = sc.nextLine();
+        if (responseStr.equalsIgnoreCase("y")) {
+            //String all = person.getEducation().getSchools().toString();
+            String all = person.toString();
+            System.out.println("********************************************** \n" + all);
+        }
+
+        while(true) {
+            System.out.println("Would you like to make changes to your Records?");
+            responseStr = sc.nextLine();
+            if (responseStr.equalsIgnoreCase("y")) {
+                System.out.println("Would you like to make changes to your (N)ame, (E)mail address or (P)hone number?");
+                responseStr = sc.nextLine();
+                if (responseStr.equalsIgnoreCase("n")) {
+                    System.out.println("What is your name?");
+                    responseStr = sc.nextLine();
+                    person.setName(responseStr);
+                } else if (responseStr.equalsIgnoreCase("e")) {
+                    System.out.println("What is your email address?");
+                    responseStr = sc.nextLine();
+                    person.setEmail(responseStr);
+                } else if (responseStr.equalsIgnoreCase("p")) {
+                    System.out.println("What is your phone number?");
+                    responseStr = sc.nextLine();
+                    person.setPhone(responseStr);
+                } else {
+                    break;
+                }
+            } else {
+                break;
+            }
+        }
+        System.out.println("Would you like to see a Summary of your Records? (Y)");
         responseStr = sc.nextLine();
         if (responseStr.equalsIgnoreCase("y")) {
             //String all = person.getEducation().getSchools().toString();

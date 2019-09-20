@@ -41,7 +41,7 @@ public class Person {
     @Override
     public String toString(){
         String outStr = "";
-        outStr += getAddress().getName() + "\n" + getAddress().getEmail() + "\n\n";
+        outStr += getAddress().getName() + "\n" + getAddress().getEmail() + "\n" + getAddress().getPhone() + "\n\n";
 
         // Education
         outStr += education.toString();
