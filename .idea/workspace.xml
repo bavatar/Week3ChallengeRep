@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6174c3d-ad99-4bfb-903c-7b916d4558b0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week3Challenge/com/company/CompositionBasics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3Challenge/com/company/CompositionBasics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CompositionBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CompositionBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Person.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="43" column="108" selection-start-line="43" selection-start-column="108" selection-end-line="43" selection-end-column="108" />
+            <state relative-caret-position="875">
+              <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
               <folding>
                 <element signature="e#1882#1883#0" expanded="true" />
                 <element signature="e#1904#1905#0" expanded="true" />
@@ -48,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/CompositionBasics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-367">
               <caret line="177" column="80" selection-start-line="177" selection-start-column="80" selection-end-line="177" selection-end-column="80" />
             </state>
           </provider>
@@ -167,12 +164,12 @@
       <workItem from="1568921115240" duration="307000" />
       <workItem from="1568939658790" duration="21070000" />
       <workItem from="1568964262471" duration="384000" />
-      <workItem from="1568984541644" duration="3292000" />
+      <workItem from="1568984541644" duration="4116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3292000" />
+    <option name="totallyTimeSpent" value="4116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -186,11 +183,11 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" weight="0.25785482" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.25785482" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6218852" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45178765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -259,17 +256,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/CompositionBasics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="177" column="80" selection-start-line="177" selection-start-column="80" selection-end-line="177" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="43" column="108" selection-start-line="43" selection-start-column="108" selection-end-line="43" selection-end-column="108" />
+        <state relative-caret-position="875">
+          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
           <folding>
             <element signature="e#1882#1883#0" expanded="true" />
             <element signature="e#1904#1905#0" expanded="true" />
@@ -282,6 +272,13 @@
             <element signature="e#2314#2315#0" expanded="true" />
             <element signature="e#2341#2342#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/CompositionBasics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="177" column="80" selection-start-line="177" selection-start-column="80" selection-end-line="177" selection-end-column="80" />
         </state>
       </provider>
     </entry>
